@@ -1,21 +1,8 @@
-import axios from 'axios';
-
-const API_URL = 'http://localhost:5000/api';
-
-export const createActivity = async (activityData) => {
-  try {
-    const response = await axios.post(`${API_URL}/activities`, activityData);
-    return response.data; // response.data ya es un objeto JavaScript
-  } catch (error) {
-    throw error;
-  }
-};
-
 export const getActivities = async () => {
-  try {
-    const response = await axios.get(`${API_URL}/activities`);
-    return response.data; // response.data ya es un objeto JavaScript
-  } catch (error) {
-    throw error;
-  }
+  // Lógica para obtener actividades, por ejemplo, desde una API
+  return [
+    // Ejemplo de datos de actividades
+    { id: 1, name: 'Running', date: '2024-07-10' },
+    { id: 2, name: 'Swimming', date: '2024-07-11' }
+  ];
 };
