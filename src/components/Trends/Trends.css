@@ -1,0 +1,12 @@
+.trends {
+    padding: 20px;
+    margin: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .trends h2 {
+    font-size: 1.5em;
+  }
+  

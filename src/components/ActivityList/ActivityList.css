@@ -1,0 +1,11 @@
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-list-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
