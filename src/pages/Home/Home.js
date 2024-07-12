@@ -1,15 +1,11 @@
 import React from 'react';
-import ActivityForm from '../../components/ActivityForm/ActivityForm';
-import NavigationLinks from '../../components/Navigation/NavigationLinks';
-import './Home.css';
 
-const Home = () => {
-  return (
-    <div className="home">
-      <ActivityForm />
-      <NavigationLinks />
-    </div>
-  );
-};
+function Home() {
+    return (
+        <div>
+            <h1>Welcome to the Activity Tracker</h1>
+        </div>
+    );
+}
 
 export default Home;
